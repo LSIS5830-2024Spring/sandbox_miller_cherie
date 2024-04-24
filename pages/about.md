@@ -1,7 +1,22 @@
+---
+title: About
+layout: about
+permalink: /about.html
+# include CollectionBuilder info at bottom
+credits: true
+# Edit the markdown on in this file to describe your collection
+# Look in _includes/feature for options to easily add features to the page
+---
 
+{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+
+{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 
 ## About the Collection
 
-This site is my attempt to become more familiar with CollectionBuilder. The content is not as important as the process, so I have included multiple images from my cellphone that were taken in April 2024. I suppose my users will be others who are checking out CollectionBuilder, but I also hope my images are entertaining, if even a little bit.
+This is my attempt to become more familiar with CollectionBuilder. The process is more important (for me) than the content, but I hope browsers enjoy the random images from my cellphone and I hope they are entertained, if even for a moment.
+
+{% include feature/image.html objectid="002_2024eclipse" width="75" %}
 
 
+For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
